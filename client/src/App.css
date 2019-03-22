@@ -1,0 +1,118 @@
+.App {
+  background-color: #afd4c0;
+}
+
+.main-body {
+  background-color: #e5f4ec;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.wizard-container {
+  width: 100%;
+}
+
+h2 {
+  font-family: "Arial Narrow" sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-box {
+  width: 150px;
+}
+
+.wizard-header {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.new-prop-button,
+.complete-button,
+.next-step,
+.previous-step,
+.cancel-button {
+  max-height: 35px;
+  max-width: 200px;
+  border-radius: 3px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-family: "Arial Narrow" sans-serif;
+  font-weight: 800;
+}
+
+.new-prop-button,
+.complete-button {
+  background-color: #8aea92;
+  color: black;
+}
+.next-step,
+.previous-step {
+  background-color: #3b5249;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #fec2c2;
+  color: black;
+}
+
+.page-container {
+  margin: 0;
+}
+
+.house-info-container {
+  background-color: #dedede;
+  margin: 20px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.image-box,
+.info-box {
+  padding: 0 10px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+label {
+  font-size: 14px;
+  font-family: "Arial Narrow" sans-serif;
+  font-weight: 600;
+}
+
+input {
+  margin: 5px;
+  min-width: 100px;
+}
+
+.inputs-container {
+  min-height: 200px;
+  padding: 20px 0;
+}
